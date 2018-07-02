@@ -1,0 +1,232 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    font-size: 28px;
+    background: white;
+}
+
+.header {
+    background-image: url("../../immages/note.jpg");
+    opacity: 0.4;
+    height: 100px;
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1 {
+    text-align: center;
+    color: #2b2b2b;
+    margin: 0;
+    letter-spacing: 3px;
+    font-size: 3em;
+    font-weight: lighter;
+}
+
+#homeBar {
+    overflow: hidden;
+    background-color: white;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 6px 25px -1px lightgrey;
+}
+
+.unactive {
+    margin: 0 50px;
+    text-decoration: none;
+    color: black;
+    opacity: 0.6;
+    font-size: 0.6em;
+    transition: all .2s ease-in-out;
+}
+
+.unactive:hover {
+    opacity: 1.0;
+    font-size: 1.0em;
+}
+
+active {
+    margin: 0 50px;
+    text-decoration: none;
+    color: black;
+    opacity: 0.6;
+    font-size: 1.3em;
+    transition: all .2s ease-in-out;
+}
+
+
+#homeBar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.content {
+    width: 60%;
+    margin: 30px auto;
+    line-height: 2em;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 60px;
+}
+
+p{
+    font-family: "Century Schoolbook";
+    margin: 2%;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+
+.materia{
+    alignment: center;
+    color: #0065AE;
+    border-bottom: lightgrey;
+    font-size: 48px;
+
+}
+
+.sottoTitolo{
+
+    margin-right: 4%;
+    margin-left: 4%;
+    margin-top: 3%;
+    alignment: right;
+    color: #8496B0;
+    border-bottom: lightgrey;
+    font-size: 32px;
+    font-family: Tahoma;
+    line-height: 35px;
+}
+
+.textMaterie{
+    margin-right: 6%;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    alignment: right;
+    color: #000;
+    font-family: Georgia;
+    font-size: 24px;
+    line-height: 30px;
+
+}
+
+.topButton{
+    display: none;
+    position: fixed;
+    bottom: 3%;
+    right: 3%;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #3c3f41;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    height: auto;
+
+
+}
+
+.topButton:hover{
+    opacity: 1;
+    filter: alpha(opacity=100);;
+}
+
+
+.preziButton{
+    position: fixed;
+    bottom: 3%;
+    left: 3%;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #3c3f41;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    size: auto;
+}
+
+.preziButton:hover{
+    opacity: 1;
+    filter: alpha(opacity=100);;
+}
+
+.downloadTesina{
+    position: fixed;
+    bottom: 11%;
+    left: 3%;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #3c3f41;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    size: auto;
+}
+
+.downloadTesina:hover{
+    opacity: 1;
+    filter: alpha(opacity=100);;
+}
+
+
+
+
+.textCampi, .textPresentazione, .textItaliano, .textStoria, .textInglese, .textCampi, .textSistemi{
+    margin: 9%;
+    text-align: justify-all;
+    background-color: #eaeaea;
+    border-style: groove;
+    solid-opacity: 0.2;
+    box-shadow: 0 6px 25px -1px lightgrey;
+}
+.textPuntato{
+    margin-right: 7%;
+    margin-left: 5%;
+    alignment: right;
+    color: #000;
+    font-family: Georgia;
+    font-size: 24px;
+    line-height: 30px;
+
+}
+
+.paragrafoTitolo{
+    margin-right: 5%;
+    margin-left: 4%;
+    margin-top: 3%;
+    alignment: right;
+    color: #ACB9CA;
+    border-bottom: lightgrey;
+    font-size: 28px;
+    font-family: Tahoma;
+    line-height: 35px;
+}
+
